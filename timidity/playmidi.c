@@ -91,7 +91,7 @@ int usleep(unsigned int useconds);
 #define SPEED_CHANGE_RATE		1.0594630943592953  /* 2^(1/12) */
 
 /* Undefine if you don't want to use auto voice reduce implementation */
-#define REDUCE_VOICE_TIME_TUNING	(play_mode->rate/5) /* 0.2 sec */
+//#define REDUCE_VOICE_TIME_TUNING	(play_mode->rate/5) /* 0.2 sec */
 #ifdef REDUCE_VOICE_TIME_TUNING
 static int max_good_nv = 1;
 static int min_bad_nv = 256;

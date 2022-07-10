@@ -450,6 +450,8 @@ typedef double FLOAT_T;
 #endif /* HAVE_CONFIG_H */
 
 #include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
 
 #ifdef HAVE_ERRNO_H
 #include <errno.h>
